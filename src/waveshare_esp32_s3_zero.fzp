@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.3" moduleId="WaveshareESP32S3Zero_1_ModuleID">
+  <version>1</version>
+  <title>Waveshare ESP32-S3-Zero</title>
+  <label>U</label>
+  <date>2026-10-03</date>
+  <author>Markus</author>
+  <tags><tag>ESP32</tag><tag>ESP32-S3</tag><tag>Waveshare</tag><tag>microcontroller</tag><tag>WiFi</tag><tag>Bluetooth</tag></tags>
+  <properties>
+    <property name="family">microcontroller board</property>
+    <property name="variant">ESP32-S3-Zero</property>
+    <property name="chip">ESP32-S3FH4R2</property>
+    <property name="pins">29</property>
+  </properties>
+  <description>Waveshare ESP32-S3-Zero mini development board, 23.5 x 18 mm, USB-C, 4 MB flash, 2 MB PSRAM, WS2812 RGB LED on GPIO21, BOOT button on GPIO0. 2x9 header holes (2.54 mm pitch, 15.24 mm row spacing) plus 3 top pads and 8 bottom pads.</description>
+  <views>
+    <iconView><layers image="icon/waveshare_esp32_s3_zero_icon.svg"><layer layerId="icon"/></layers></iconView>
+    <breadboardView><layers image="breadboard/waveshare_esp32_s3_zero_breadboard.svg"><layer layerId="breadboard"/></layers></breadboardView>
+    <schematicView><layers image="schematic/waveshare_esp32_s3_zero_schematic.svg"><layer layerId="schematic"/></layers></schematicView>
+    <pcbView><layers image="pcb/waveshare_esp32_s3_zero_pcb.svg"><layer layerId="copper0"/><layer layerId="silkscreen"/><layer layerId="copper1"/></layers></pcbView>
+  </views>
+  <connectors>
+    <connector id="connector0" name="5V" type="male">
+      <description>5V (USB VBUS / external 5V input)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector0pin" terminalId="connector0terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector0pin" terminalId="connector0terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector0pin"/><p layer="copper1" svgId="connector0pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector1" name="GND" type="male">
+      <description>Ground</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector1pin" terminalId="connector1terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector1pin" terminalId="connector1terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector1pin"/><p layer="copper1" svgId="connector1pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" name="3V3" type="male">
+      <description>3.3V output from the on-board regulator (3V3 OUT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector2pin" terminalId="connector2terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector2pin" terminalId="connector2terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector2pin"/><p layer="copper1" svgId="connector2pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector3" name="GP1" type="male">
+      <description>GPIO1: ADC1_CH0, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector3pin" terminalId="connector3terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector3pin" terminalId="connector3terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector3pin"/><p layer="copper1" svgId="connector3pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector4" name="GP2" type="male">
+      <description>GPIO2: ADC1_CH1, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector4pin" terminalId="connector4terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector4pin" terminalId="connector4terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector4pin"/><p layer="copper1" svgId="connector4pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector5" name="GP3" type="male">
+      <description>GPIO3: ADC1_CH2, UART, PWM, I2S, I2C, SPI, strapping pin</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector5pin" terminalId="connector5terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector5pin" terminalId="connector5terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector5pin"/><p layer="copper1" svgId="connector5pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector6" name="GP4" type="male">
+      <description>GPIO4: ADC1_CH3, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector6pin" terminalId="connector6terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector6pin" terminalId="connector6terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector6pin"/><p layer="copper1" svgId="connector6pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector7" name="GP5" type="male">
+      <description>GPIO5: ADC1_CH4, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector7pin" terminalId="connector7terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector7pin" terminalId="connector7terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector7pin"/><p layer="copper1" svgId="connector7pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector8" name="GP6" type="male">
+      <description>GPIO6: ADC1_CH5, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector8pin" terminalId="connector8terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector8pin" terminalId="connector8terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector8pin"/><p layer="copper1" svgId="connector8pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector9" name="GP43/TX" type="male">
+      <description>GPIO43: UART0 TX</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector9pin" terminalId="connector9terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector9pin" terminalId="connector9terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector9pin"/><p layer="copper1" svgId="connector9pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector10" name="GP44/RX" type="male">
+      <description>GPIO44: UART0 RX</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector10pin" terminalId="connector10terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector10pin" terminalId="connector10terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector10pin"/><p layer="copper1" svgId="connector10pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector11" name="GP13" type="male">
+      <description>GPIO13: ADC2_CH2, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector11pin" terminalId="connector11terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector11pin" terminalId="connector11terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector11pin"/><p layer="copper1" svgId="connector11pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector12" name="GP12" type="male">
+      <description>GPIO12: ADC2_CH1, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector12pin" terminalId="connector12terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector12pin" terminalId="connector12terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector12pin"/><p layer="copper1" svgId="connector12pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector13" name="GP11" type="male">
+      <description>GPIO11: ADC2_CH0, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector13pin" terminalId="connector13terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector13pin" terminalId="connector13terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector13pin"/><p layer="copper1" svgId="connector13pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector14" name="GP10" type="male">
+      <description>GPIO10: ADC1_CH9, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector14pin" terminalId="connector14terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector14pin" terminalId="connector14terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector14pin"/><p layer="copper1" svgId="connector14pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector15" name="GP9" type="male">
+      <description>GPIO9: ADC1_CH8, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector15pin" terminalId="connector15terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector15pin" terminalId="connector15terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector15pin"/><p layer="copper1" svgId="connector15pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector16" name="GP8" type="male">
+      <description>GPIO8: ADC1_CH7, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector16pin" terminalId="connector16terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector16pin" terminalId="connector16terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector16pin"/><p layer="copper1" svgId="connector16pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector17" name="GP7" type="male">
+      <description>GPIO7: ADC1_CH6, UART, PWM, I2S, I2C, SPI</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector17pin" terminalId="connector17terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector17pin" terminalId="connector17terminal"/></schematicView>
+        <pcbView><p layer="copper0" svgId="connector17pin"/><p layer="copper1" svgId="connector17pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector18" name="GP16" type="pad">
+      <description>GPIO16: ADC2_CH5, UART, PWM, I2S, I2C, SPI (pad on the top face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector18pin" terminalId="connector18terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector18pin" terminalId="connector18terminal"/></schematicView>
+      </views>
+    </connector>
+    <connector id="connector19" name="GP15" type="pad">
+      <description>GPIO15: ADC2_CH4, UART, PWM, I2S, I2C, SPI (pad on the top face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector19pin" terminalId="connector19terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector19pin" terminalId="connector19terminal"/></schematicView>
+      </views>
+    </connector>
+    <connector id="connector20" name="GP14" type="pad">
+      <description>GPIO14: ADC2_CH3, UART, PWM, I2S, I2C, SPI (pad on the top face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector20pin" terminalId="connector20terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector20pin" terminalId="connector20terminal"/></schematicView>
+      </views>
+    </connector>
+    <connector id="connector21" name="GP45" type="pad">
+      <description>GPIO45: UART, PWM, I2S, I2C, SPI, strapping pin (VDD_SPI voltage) (pad on the bottom face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector21pin" terminalId="connector21terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector21pin" terminalId="connector21terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector21pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector22" name="GP42" type="pad">
+      <description>GPIO42: UART, PWM, I2S, I2C, SPI, JTAG by default (pad on the bottom face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector22pin" terminalId="connector22terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector22pin" terminalId="connector22terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector22pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector23" name="GP41" type="pad">
+      <description>GPIO41: UART, PWM, I2S, I2C, SPI, JTAG by default (pad on the bottom face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector23pin" terminalId="connector23terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector23pin" terminalId="connector23terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector23pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector24" name="GP40" type="pad">
+      <description>GPIO40: UART, PWM, I2S, I2C, SPI, JTAG by default (pad on the bottom face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector24pin" terminalId="connector24terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector24pin" terminalId="connector24terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector24pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector25" name="GP39" type="pad">
+      <description>GPIO39: UART, PWM, I2S, I2C, SPI, JTAG by default (pad on the bottom face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector25pin" terminalId="connector25terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector25pin" terminalId="connector25terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector25pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector26" name="GP38" type="pad">
+      <description>GPIO38: UART, PWM, I2S, I2C, SPI (pad on the bottom face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector26pin" terminalId="connector26terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector26pin" terminalId="connector26terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector26pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector27" name="GP18" type="pad">
+      <description>GPIO18: ADC2_CH7, UART, PWM, I2S, I2C, SPI (pad on the bottom face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector27pin" terminalId="connector27terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector27pin" terminalId="connector27terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector27pin"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector28" name="GP17" type="pad">
+      <description>GPIO17: ADC2_CH6, UART, PWM, I2S, I2C, SPI (pad on the bottom face of the board)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector28pin" terminalId="connector28terminal"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector28pin" terminalId="connector28terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector28pin"/></pcbView>
+      </views>
+    </connector>
+  </connectors>
+</module>
